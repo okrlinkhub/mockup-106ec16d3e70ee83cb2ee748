@@ -1,0 +1,185 @@
+{
+  "title": "Catalogo e gestione biblioteca",
+  "description": "Prototipo navigabile per esplorare libri di una biblioteca immaginaria, filtrare il catalogo e inserire nuovi titoli di esempio.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo del catalogo e accesso alle principali funzioni.",
+      "metrics": [
+        {
+          "label": "Titoli in catalogo",
+          "value": "128"
+        },
+        {
+          "label": "Generi disponibili",
+          "value": "8"
+        },
+        {
+          "label": "Nuovi titoli",
+          "value": "12"
+        },
+        {
+          "label": "Esemplari disponibili",
+          "value": "94"
+        }
+      ],
+      "columns": [
+        "Titolo",
+        "Autore di fantasia",
+        "Genere",
+        "Disponibilità"
+      ],
+      "rows": [
+        [
+          "La mappa delle nuvole",
+          "Lumo Varen",
+          "Avventura",
+          "Disponibile"
+        ],
+        [
+          "Il giardino di vetro",
+          "Nubi Elen",
+          "Fantasy",
+          "Disponibile"
+        ],
+        [
+          "Rotte di mezzanotte",
+          "Vela Orin",
+          "Mistero",
+          "In prestito"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo",
+      "title": "Catalogo libri",
+      "description": "Ricerca e filtra i libri per titolo o genere; seleziona un titolo per consultare la scheda.",
+      "metrics": [
+        {
+          "label": "Risultati iniziali",
+          "value": "6"
+        },
+        {
+          "label": "Filtri attivi",
+          "value": "0"
+        }
+      ],
+      "columns": [
+        "Titolo",
+        "Autore di fantasia",
+        "Genere",
+        "Anno immaginario",
+        "Disponibilità"
+      ],
+      "rows": [
+        [
+          "La mappa delle nuvole",
+          "Lumo Varen",
+          "Avventura",
+          "2021",
+          "Disponibile"
+        ],
+        [
+          "Il giardino di vetro",
+          "Nubi Elen",
+          "Fantasy",
+          "2020",
+          "Disponibile"
+        ],
+        [
+          "Rotte di mezzanotte",
+          "Vela Orin",
+          "Mistero",
+          "2023",
+          "In prestito"
+        ],
+        [
+          "L'eco delle conchiglie",
+          "Soli Meran",
+          "Narrativa",
+          "2019",
+          "Disponibile"
+        ],
+        [
+          "La città sommersa",
+          "Timo Ralen",
+          "Fantascienza",
+          "2022",
+          "Disponibile"
+        ],
+        [
+          "Erbario delle lune",
+          "Mira Solen",
+          "Fantasy",
+          "2024",
+          "In prestito"
+        ]
+      ],
+      "form": [
+        "Titolo",
+        "Autore di fantasia",
+        "Genere",
+        "Anno immaginario",
+        "Disponibilità"
+      ]
+    },
+    {
+      "id": "dettaglio-libro",
+      "title": "Dettaglio libro",
+      "description": "Scheda esemplificativa del titolo selezionato dal catalogo.",
+      "metrics": [
+        {
+          "label": "Copie totali",
+          "value": "2"
+        },
+        {
+          "label": "Copie disponibili",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Titolo",
+        "Autore di fantasia",
+        "Genere",
+        "Anno immaginario",
+        "Descrizione",
+        "Disponibilità"
+      ],
+      "rows": [
+        [
+          "La mappa delle nuvole",
+          "Lumo Varen",
+          "Avventura",
+          "2021",
+          "Un viaggio tra isole sospese e mappe mutevoli.",
+          "Disponibile"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "aggiungi-libro",
+      "title": "Aggiungi un libro",
+      "description": "Inserisci un titolo inventato per ampliare il catalogo dimostrativo.",
+      "metrics": [],
+      "columns": [
+        "Titolo",
+        "Autore di fantasia",
+        "Genere",
+        "Anno immaginario",
+        "Disponibilità"
+      ],
+      "rows": [],
+      "form": [
+        "Titolo",
+        "Autore di fantasia",
+        "Genere",
+        "Anno immaginario",
+        "Disponibilità"
+      ]
+    }
+  ]
+}
