@@ -1,34 +1,34 @@
 {
-  "title": "Catalogo e gestione biblioteca",
-  "description": "Prototipo navigabile per esplorare libri di una biblioteca immaginaria, filtrare il catalogo e inserire nuovi titoli di esempio.",
+  "title": "Gestione e consultazione del catalogo",
+  "description": "Prototipo navigabile per esplorare un catalogo immaginario, filtrare i titoli, consultare le schede e aggiungere libri di fantasia.",
   "accent": "indigo",
   "pages": [
     {
       "id": "dashboard",
       "title": "Panoramica",
-      "description": "Riepilogo del catalogo e accesso alle principali funzioni.",
+      "description": "Riepilogo del catalogo per categoria e accesso alle principali funzioni. Usa il filtro per restringere l’elenco dei titoli.",
       "metrics": [
         {
           "label": "Titoli in catalogo",
-          "value": "128"
+          "value": "6"
         },
         {
-          "label": "Generi disponibili",
-          "value": "8"
+          "label": "Categorie",
+          "value": "5"
         },
         {
-          "label": "Nuovi titoli",
-          "value": "12"
+          "label": "Disponibili",
+          "value": "4"
         },
         {
-          "label": "Esemplari disponibili",
-          "value": "94"
+          "label": "In prestito",
+          "value": "2"
         }
       ],
       "columns": [
         "Titolo",
         "Autore di fantasia",
-        "Genere",
+        "Categoria",
         "Disponibilità"
       ],
       "rows": [
@@ -49,28 +49,50 @@
           "Vela Orin",
           "Mistero",
           "In prestito"
+        ],
+        [
+          "L'eco delle conchiglie",
+          "Soli Meran",
+          "Narrativa",
+          "Disponibile"
+        ],
+        [
+          "La città sommersa",
+          "Timo Ralen",
+          "Fantascienza",
+          "Disponibile"
+        ],
+        [
+          "Erbario delle lune",
+          "Mira Solen",
+          "Fantasy",
+          "In prestito"
         ]
       ],
-      "form": []
+      "form": [
+        "Filtro per titolo o autore",
+        "Categoria",
+        "Disponibilità"
+      ]
     },
     {
       "id": "catalogo",
       "title": "Catalogo libri",
-      "description": "Ricerca e filtra i libri per titolo o genere; seleziona un titolo per consultare la scheda.",
+      "description": "Esplora i titoli e restringi i risultati usando i filtri per titolo, categoria e disponibilità. Seleziona una riga per aprire la scheda del libro.",
       "metrics": [
         {
-          "label": "Risultati iniziali",
+          "label": "Titoli mostrati",
           "value": "6"
         },
         {
-          "label": "Filtri attivi",
-          "value": "0"
+          "label": "Categorie disponibili",
+          "value": "5"
         }
       ],
       "columns": [
         "Titolo",
         "Autore di fantasia",
-        "Genere",
+        "Categoria",
         "Anno immaginario",
         "Disponibilità"
       ],
@@ -119,17 +141,16 @@
         ]
       ],
       "form": [
-        "Titolo",
-        "Autore di fantasia",
-        "Genere",
-        "Anno immaginario",
-        "Disponibilità"
+        "Filtro per titolo o autore",
+        "Categoria",
+        "Disponibilità",
+        "Anno immaginario"
       ]
     },
     {
       "id": "dettaglio-libro",
       "title": "Dettaglio libro",
-      "description": "Scheda esemplificativa del titolo selezionato dal catalogo.",
+      "description": "Scheda dimostrativa del titolo selezionato dal catalogo.",
       "metrics": [
         {
           "label": "Copie totali",
@@ -143,7 +164,7 @@
       "columns": [
         "Titolo",
         "Autore di fantasia",
-        "Genere",
+        "Categoria",
         "Anno immaginario",
         "Descrizione",
         "Disponibilità"
@@ -168,7 +189,7 @@
       "columns": [
         "Titolo",
         "Autore di fantasia",
-        "Genere",
+        "Categoria",
         "Anno immaginario",
         "Disponibilità"
       ],
@@ -176,7 +197,7 @@
       "form": [
         "Titolo",
         "Autore di fantasia",
-        "Genere",
+        "Categoria",
         "Anno immaginario",
         "Disponibilità"
       ]
